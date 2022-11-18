@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "lib": ["ES2020"],
+    "module": "commonjs",
+    "target": "ES5",
+    "skipLibCheck": true,
+    "sourceMap": false,
+    "strict": true,
+    "useUnknownInCatchVariables": false,
+    "outDir": "./build",
+    "importHelpers": false
+  },
+  "exclude": ["node_modules"]
+}
