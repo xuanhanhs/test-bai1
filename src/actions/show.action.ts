@@ -40,7 +40,7 @@ export class ShowAction extends AbstractAction {
       console.log(table.toString());
       process.exit(0);
     } catch (error) {
-      console.error(error.message);
+      console.error(error);
       process.exit(1);
     }
   }
